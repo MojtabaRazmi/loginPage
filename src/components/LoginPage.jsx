@@ -30,8 +30,8 @@ class LoginPage extends Component {
                                     </FormGroup>
 
                                     <FormGroup className="form-label-group">
-                                        <Input type="number" id="inputPassword" className="form-control" placeholder="number" />
-                                            <Label htmlFor="inputPassword">Phone Number</Label>
+                                        <Input type="number" id="inputNumber" className="form-control" placeholder="number" required />
+                                            <Label htmlFor="inputNumber">Phone Number</Label>
                                     </FormGroup>
 
                                     <FormGroup className="form-label-group">

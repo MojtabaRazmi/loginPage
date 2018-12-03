@@ -11,7 +11,8 @@ body {
     background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.custom-control-label >label :hover{
+
+.custom-control-label > label :hover {
     font-size: 20px;
 }
 
@@ -54,12 +55,12 @@ body {
     border-radius: 2rem;
 }
 
-.form-label-group>input,
-.form-label-group>label {
+.form-label-group > input,
+.form-label-group > label {
     padding: var(--input-padding-y) var(--input-padding-x);
 }
 
-.form-label-group>label {
+.form-label-group > label {
     position: absolute;
     top: 0;
     left: 0;
@@ -99,10 +100,17 @@ body {
     padding-bottom: calc(var(--input-padding-y) / 3);
 }
 
-.form-label-group input:not(:placeholder-shown)~label {
+.form-label-group input:not(:placeholder-shown) ~ label {
     padding-top: calc(var(--input-padding-y) / 3);
     padding-bottom: calc(var(--input-padding-y) / 3);
     font-size: 12px;
     color: #777;
 }
 
+.custom-control-label:hover {
+    cursor: pointer ;
+}
+
+.form-label-group:hover{
+    cursor: text;
+}
